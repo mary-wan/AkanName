@@ -1,9 +1,5 @@
 # Akan Name Generator
 ##### By Mary Njenga
-![Project Image](img/before.png)
- ### Interface before the user fills the form
- ![Project Image](img/after.png)
- ### Interface after the user fills the form
 ## Table of Content
 + [Description](#description)
 + [Behaviour Driven Development](#Behaviour-Driven-Development)
@@ -15,16 +11,21 @@
 + [Authors Info](#author-Info)
 ## Description
 Akan is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
-## Design
-[Figma-Design](https://www.figma.com/file/KaegeL9fScmYUJ3mHCreFL/Akan-Names?node-id=1%3A2
+## Interface before the user fills the form
+![Project Image](img/before.png)
+##  Interface after the user fills the form
+ ![Project Image](img/after.png)
+
 ****
 ## Behaviour Driven Development
 | Behaviour      | Input     | Output     |
 | :------------- | :----------: | -----------: |
-|  Invalid input    | User enters an invalid date    | An error is message is displayed    |
-| :------------- | :----------: | -----------: |
-|  Invalid input    | User enters an valid date    | The Akan name is displayed    |
+|  Invalid input    | User enters an invalid date or gender not selected  | An error is message is displayed    |
+|  Valid input    | User enters an valid date and gender    | The Akan name is displayed    |
 
+****
+## Design
+[Figma-Design](https://www.figma.com/file/KaegeL9fScmYUJ3mHCreFL/Akan-Names?node-id=1%3A2)
 ****
 ## Installation
 ### Requirements
@@ -34,7 +35,7 @@ Akan is a web application that takes a user's birthday and calculates the day of
 * Lauch terminal
 * To install Git, run the following command: sudo apt-get install git-all
 * Run the command 'git clone https://github.com/mary-wan/AkanName.git to clone the repository to your local computer.
-* Click on the link to view the site.https://mary-wan.github.io/portfolio/
+* Click on the link to view the site.https://mary-wan.github.io/AkanName/
 ****
 [Go Back to the top](#akan-Name-Generator)
 ## Technology Used
