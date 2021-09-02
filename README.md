@@ -1,5 +1,5 @@
 # Akan Name Generator
-##### By Mary Njenga
+### By Mary Njenga
 ## Table of Content
 + [Description](#description)
 + [Behaviour Driven Development](#Behaviour-Driven-Development)
@@ -13,9 +13,9 @@ Akan is a web application that takes a user's birthday and calculates the day of
 
 ****
 ## Behaviour Driven Development
-## Interface before the user fills the form
+### Interface before the user fills the form
 ![Project Image](img/before.png)
-##  Interface after the user fills the form
+### Interface after the user fills the form
  ![Project Image](img/after.png)
 | Behaviour      | Input     | Output     |
 | :------------- | :----------: | -----------: |
