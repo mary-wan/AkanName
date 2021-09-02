@@ -2,3 +2,14 @@ body{
     background-image:url(/img/bg.jpg) ;
     background-attachment: fixed;
 }
+h1{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+.intro{
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
