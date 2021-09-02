@@ -6,18 +6,17 @@
 + [Installation Requirement](#Installation)
 + [Design](#design)
 + [Technology Used](#technology-used)
-+ [Reference](#reference)
 + [Licence](#licence)
 + [Authors Info](#author-Info)
 ## Description
 Akan is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
+
+****
+## Behaviour Driven Development
 ## Interface before the user fills the form
 ![Project Image](img/before.png)
 ##  Interface after the user fills the form
  ![Project Image](img/after.png)
-
-****
-## Behaviour Driven Development
 | Behaviour      | Input     | Output     |
 | :------------- | :----------: | -----------: |
 |  Invalid input    | User enters an invalid date or gender not selected  | An error is message is displayed    |
