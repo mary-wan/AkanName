@@ -19,7 +19,7 @@ h1{
     background-image:url("/img/form.jpg");
     margin-left: 15%; 
     font-size: 24px;
-    margin-right:15%;
+    margin-right:10%;
 }
 legend{
     text-align: center;
@@ -27,10 +27,10 @@ legend{
 #submit, #reset{
     background-color: green;
     color: white;
-    width: 100px;
+    width: 70px;
 }
 .butn{
-    margin-left: 70px;
+    margin-left: 60px;
 }
 .sheet{
     color: white;

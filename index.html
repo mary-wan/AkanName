@@ -24,7 +24,7 @@
             <p>Find out your Akan name below using your Date of birth and Gender</p>
         </div>
         <div class="form_cont row p-3">
-            <form>
+            <form onsubmit="AkanGenerate(e)">
                 <legend>Fill To Generate Your Akan Name</legend>
                 <hr>
                 <p>Please enter Date of Birth</p>
@@ -44,7 +44,7 @@
                 <div class="form-group row">
                     <label for="year" class="col-sm-4 col-form-label">Year:</label>
                     <div class="col-sm-8">
-                        <input type="text" name="year" id="year" maxlength="year">
+                        <input type="text" name="year" id="year" maxlength="4">
                     </div>
                 </div><br>
                 <p>Please select your Gender</p>
@@ -58,7 +58,7 @@
                 </div><br>
                 <div class="butn">
                     <input type="submit" value="Submit" id="submit" class="btn m-2 text-white">
-                    <input type="reset" value="Reset" id="reset"class="btn m-2 text-white">
+                    <input type="reset" value="Reset" id="reset"class="btn m-2 text-white" onclick="resetForm()">
                 </div>
             </form>
         </div><br>
