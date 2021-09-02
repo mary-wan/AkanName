@@ -12,46 +12,54 @@
     <title>AkanName Generator</title>
 
 </head>
+
 <body>
     <div class="container">
         <h1>AKAN NAME GENERATOR</h1>
         <div class="intro">
             <p><span>Akan names are derived from Ghanian culture.</span><br>
                 Frequently in Ghana, children are given their first name as a 'day name' which <br>
-               <span>corresponds to the day in the week they were born.</span>  
+                <span>corresponds to the day in the week they were born.</span>
             </p>
             <p>Find out your Akan name below using your Date of birth and Gender</p>
         </div>
-        <div>
-            <form >
+        <div class="form_cont row p-3 m-2">
+            <form>
                 <legend>Fill To Generate Your Akan Name</legend>
                 <hr>
                 <p>Please enter Date of Birth</p>
-                <label for="day">Day:</label>
-                <div>
-                    <input type="text" name="day" id="day" maxlength="2">
+                <p id="invalid"></p>
+                <div class="form-group row">
+                    <label for="day" class="col-sm-4 col-form-label">Day:</label>
+                    <div class="col-sm-8">
+                        <input type="text" name="day" id="day" maxlength="2">
+                    </div>
                 </div>
-                <label for="month">Month:</label>
-                <div>
-                    <input type="text" name="month" id="month" maxlength="2">
+                <div class="form-group row">
+                    <label for="month" class="col-sm-4 col-form-label">Month:</label>
+                    <div class="col-sm-8">
+                        <input type="text" name="month" id="month" maxlength="2">
+                    </div>
                 </div>
-                <label for="year">Year:</label>
-                <div>
-                    <input type="text" name="year" id="year" maxlength="year">
-                </div>
+                <div class="form-group row">
+                    <label for="year" class="col-sm-4 col-form-label">Year:</label>
+                    <div class="col-sm-8">
+                        <input type="text" name="year" id="year" maxlength="year">
+                    </div>
+                </div><br>
                 <p>Please select your Gender</p>
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="male" id="male">
                     <label class="form-check-label" for="male">Male</label>
-                  </div>
-                  <div class="form-check">
+                </div>
+                <div class="form-check">
                     <input class="form-check-input" type="radio" name="female" id="female">
                     <label class="form-check-label" for="female">Female</label>
-                  </div>
-                  <div class="butn">
+                </div><br>
+                <div class="butn">
                     <input type="submit" value="Submit" id="submit">
                     <input type="reset" value="Reset" id="reset">
-                  </div>
+                </div>
             </form>
         </div>
     </div>
