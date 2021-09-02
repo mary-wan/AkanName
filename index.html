@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <title>AkanName Generator</title>
@@ -21,7 +22,40 @@
             </p>
             <p>Find out your Akan name below using your Date of birth and Gender</p>
         </div>
+        <div>
+            <form >
+                <legend>Fill To Generate Your Akan Name</legend>
+                <hr>
+                <p>Please enter Date of Birth</p>
+                <label for="day">Day:</label>
+                <div>
+                    <input type="text" name="day" id="day" maxlength="2">
+                </div>
+                <label for="month">Month:</label>
+                <div>
+                    <input type="text" name="month" id="month" maxlength="2">
+                </div>
+                <label for="year">Year:</label>
+                <div>
+                    <input type="text" name="year" id="year" maxlength="year">
+                </div>
+                <p>Please select your Gender</p>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="male" id="male">
+                    <label class="form-check-label" for="male">Male</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="female" id="female">
+                    <label class="form-check-label" for="female">Female</label>
+                  </div>
+                  <div class="butn">
+                    <input type="submit" value="Submit" id="submit">
+                    <input type="reset" value="Reset" id="reset">
+                  </div>
+            </form>
+        </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
 
