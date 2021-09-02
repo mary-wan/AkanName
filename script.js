@@ -19,15 +19,7 @@ function AkanGenerate(e, day, month, year) {
     } else {
         $(document.getElementById("invalid")).hide();
 
-        var wkday = [];
-        wkday[0] = "Sunday";
-        wkday[1] = "Monday";
-        wkday[2] = "Tuesday";
-        wkday[3] = "Wednesday";
-        wkday[4] = "Thursday";
-        wkday[5] = "Friday";
-        wkday[6] = "Saturday";
-
+        var wkday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Saturday"];
         var date = new Date(year + ", " + month + ", " + day)
         var dayOfWeek = wkday[date.getDay()];
 
@@ -45,8 +37,8 @@ function AkanGenerate(e, day, month, year) {
                 case "Wednesday":
                     alert("Your Akan Name is Kwaku ")
                     break;
-                case "Monday":
-                    Thurday("Your Akan Name is Yaw")
+                case "Thursday":
+                    alert("Your Akan Name is Yaw")
                     break;
                 case "Friday":
                     alert("Your Akan Name is Kofi")
@@ -70,8 +62,8 @@ function AkanGenerate(e, day, month, year) {
                 case "Wednesday":
                     alert("Your Akan Name is Akua")
                     break;
-                case "Monday":
-                    Thurday("Your Akan Name is Yaa")
+                case "Thursday":
+                    alert("Your Akan Name is Yaa")
                     break;
                 case "Friday":
                     alert("Your Akan Name is Afua")
