@@ -23,3 +23,11 @@ h1{
 legend{
     text-align: center;
 }
+#submit, #reset{
+    background-color: green;
+    color: white;
+    width: 100px;
+}
+.butn{
+    margin-left: 70px;
+}
