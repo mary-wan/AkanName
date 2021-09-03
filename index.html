@@ -2,122 +2,73 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>AkanName Generator</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>AkanName Generator</title>
 
 </head>
 
 <body>
-    <div class="container">
-        <h1>AKAN NAME GENERATOR</h1>
-        <div class="intro">
-            <p><span>Akan names are derived from Ghanian culture.</span><br>
-                Frequently in Ghana, children are given their first name as a 'day name' which <br>
-                <span>corresponds to the day in the week they were born.</span>
-            </p>
-            <p>Find out your Akan name below using your Date of birth and Gender</p>
-        </div>
-        <div class="form_cont row p-3">
-            <form onsubmit="AkanGenerate(event)">
-                <legend>Fill To Generate Your Akan Name</legend>
-                <hr>
-                <p id="invalid"></p>
-                <p>Please enter Date of Birth</p>
-                <div class="form-group row">
-                    <label for="day" class="col-sm-4 col-form-label">Day:</label>
-                    <div class="col-sm-8">
-                        <input type="text" name="day" id="day" maxlength="2" required>
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="month" class="col-sm-4 col-form-label">Month:</label>
-                    <div class="col-sm-8">
-                        <input type="text" name="month" id="month" maxlength="2" required>
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label for="year" class="col-sm-4 col-form-label">Year:</label>
-                    <div class="col-sm-8">
-                        <input type="text" name="year" id="year" maxlength="4" required>
-                    </div>
-                </div><br>
-                <p>Please select your Gender</p>
-                <div class="form-check">
-                  <input type="radio" id="male" name="gender">
-                  <label class="form-check-label" for="male">
-                    Male
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input type="radio" id="female" name="gender">
-                  <label class="form-check-label" for="female">
-                    Female
-                  </label>
-                </div><br>
-                <div class="butn">
-                    <input type="submit" value="Submit" id="submit" class="btn m-2 text-white">
-                    <input type="reset" value="Reset" id="reset"class="btn m-2 text-white" onclick="resetForm()">
-                </div>
-            </form>
-        </div><br>
-        <!-- <div class="sheet col-lg-4 m-4">
-            <h2>Cheat Sheet</h2>
-            <table class="table text-white">
-                <thead>
-                  <tr>
-                    <th>Day</th>
-                    <th>Male</th>
-                    <th>Female</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th>Sunday</th>
-                    <td>Kwasi</td>
-                    <td>Akosua</td>
-                  </tr>
-                  <tr>
-                    <th>Monday</th>
-                    <td>Kwadwo</td>
-                    <td>Adwoa</td>
-                  </tr>
-                  <tr>
-                    <th>Tuesday</th>
-                    <td>Kwabena</td>
-                    <td>Abenaa</td>
-                  </tr>
-                  <tr>
-                    <th>Wednesday</th>
-                    <td>Kwaku</td>
-                    <td>Akua</td>
-                  </tr>
-                  <tr>
-                    <th>Thurday</th>
-                    <td>Yaw</td>
-                    <td>Yaa</td>
-                  </tr>
-                  <tr>
-                    <th>Friday</th>
-                    <td>Kofi</td>
-                    <td>Afua</td>
-                  </tr>
-                  <tr>
-                    <th>Saturday</th>
-                    <td>Kwame</td>
-                    <td>Ama</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div> -->
+  <div class="container">
+    <h1>AKAN NAME GENERATOR</h1>
+    <div class="intro">
+      <p><span>Akan names are derived from Ghanian culture.</span><br>
+        Frequently in Ghana, children are given their first name as a 'day name' which <br>
+        <span>corresponds to the day in the week they were born.</span>
+      </p>
+      <p>Find out your Akan name below using your Date of birth and Gender</p>
     </div>
-    <script src="script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <div class="form_cont row p-3">
+      <form onsubmit="AkanGenerate(event)">
+        <legend>Fill To Generate Your Akan Name</legend>
+        <hr>
+        <p id="invalid"></p>
+        <p>Please enter Date of Birth</p>
+        <div class="form-group row">
+          <label for="day" class="col-sm-4 col-form-label">Day:</label>
+          <div class="col-sm-8">
+            <input type="text" name="day" id="day" maxlength="2" required>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="month" class="col-sm-4 col-form-label">Month:</label>
+          <div class="col-sm-8">
+            <input type="text" name="month" id="month" maxlength="2" required>
+          </div>
+        </div>
+        <div class="form-group row">
+          <label for="year" class="col-sm-4 col-form-label">Year:</label>
+          <div class="col-sm-8">
+            <input type="text" name="year" id="year" maxlength="4" required>
+          </div>
+        </div><br>
+        <p>Please select your Gender</p>
+        <div class="form-check">
+          <input type="radio" id="male" name="gender">
+          <label class="form-check-label" for="male">
+            Male
+          </label>
+        </div>
+        <div class="form-check">
+          <input type="radio" id="female" name="gender">
+          <label class="form-check-label" for="female">
+            Female
+          </label>
+        </div><br>
+        <div class="butn">
+          <input type="submit" value="Submit" id="submit" class="btn m-2 text-white">
+          <input type="reset" value="Reset" id="reset" class="btn m-2 text-white" onclick="resetForm()">
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </body>
 
 </html>
