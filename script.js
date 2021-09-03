@@ -19,59 +19,18 @@ function AkanGenerate(e, day, month, year) {
     } else {
         $(document.getElementById("invalid")).hide();
 
-        var wkday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday","Saturday"];
+        var wkday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        var ml = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
+        var fml = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
         var date = new Date(year + ", " + month + ", " + day)
         var dayOfWeek = wkday[date.getDay()];
 
         if (document.getElementById("male").checked == true) {
-            switch (dayOfWeek) {
-                case "Sunday":
-                    alert("Your Akan Name is Kwasi ")
-                    break;
-                case "Monday":
-                    alert("Your Akan Name is Kwadwo ")
-                    break;
-                case "Tuesday":
-                    alert("Your Akan Name is Kwabena")
-                    break;
-                case "Wednesday":
-                    alert("Your Akan Name is Kwaku ")
-                    break;
-                case "Thursday":
-                    alert("Your Akan Name is Yaw")
-                    break;
-                case "Friday":
-                    alert("Your Akan Name is Kofi")
-                    break;
-                case "Saturday":
-                    alert("Your Akan Name is Kwame")
-                    break;
-            }
-
+            var nm = ml[date.getDay()]
+            alert("You were born on " + dayOfWeek + ".Your name is " + nm + ".")
         } else if (document.getElementById("female").checked == true) {
-            switch (dayOfWeek) {
-                case "Sunday":
-                    alert("Your Akan Name is Akosua")
-                    break;
-                case "Monday":
-                    alert("Your Akan Name is Adwoa")
-                    break;
-                case "Tuesday":
-                    alert("Your Akan Name is Abenaa")
-                    break;
-                case "Wednesday":
-                    alert("Your Akan Name is Akua")
-                    break;
-                case "Thursday":
-                    alert("Your Akan Name is Yaa")
-                    break;
-                case "Friday":
-                    alert("Your Akan Name is Afua")
-                    break;
-                case "Saturday":
-                    alert("Your Akan Name is Ama")
-                    break;
-            }
+            var nm = fml[date.getDay()]
+            alert("You were born on " + dayOfWeek + ".Your name is " + nm + ".")
 
         }
 
