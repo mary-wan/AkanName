@@ -21,6 +21,7 @@ Akan is a web application that takes a user's birthday and calculates the day of
 | :------------- | :----------: | -----------: |
 |  Invalid input    | User enters an invalid date or gender not selected  | An error is message is displayed    |
 |  Valid input    | User enters an valid date and gender    | The Akan name is displayed    |
+|  Reset form   | User clicks the reset button    | Form input fields and error messge cleared    |
 
 ****
 ## Design
