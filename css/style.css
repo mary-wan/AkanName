@@ -53,4 +53,10 @@ table {
 #invalid {
     text-align: center;
     color: red;
+    font-family: 'Ubuntu', sans-serif;
+}
+#output{
+    text-align: center;
+    color: green;
+    font-family: 'Ubuntu', sans-serif;
 }
